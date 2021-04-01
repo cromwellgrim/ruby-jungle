@@ -9,6 +9,9 @@
     <div class="row">
 
       <div class="col-sm-4">
+        <% if @product.quantity == 0 %>
+         <aside class="sold-out">SOLD OUT!</aside>
+        <% end %>
         <%= image_tag @product.image.url, class: 'main-img' %>
       </div>
 
