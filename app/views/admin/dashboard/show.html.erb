@@ -1,2 +1,9 @@
-<h1>Admin Dashboard</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Jungle - Admin Dashboard</h1>
+<div class="count">
+  <h3><%= link_to 'Products', '/admin/products' %></h3>
+  <h2><%= Product.count %></h2>
+  <hr>
+  <h3><%= link_to 'Categories', '/admin/categories' %></h3>
+  <h2><%= Category.count %></h2>
+</div>
+  
