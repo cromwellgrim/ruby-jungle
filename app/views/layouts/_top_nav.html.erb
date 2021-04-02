@@ -29,7 +29,7 @@
       <ul class="nav navbar-nav navbar-right">
        <li>
          <% if current_user %>
-           Logged in as <%= current_user.name %> | <%= link_to "Logout", '/logout' %>
+           Logged in as <%= current_user.name %> | <%= link_to "Logout", '/logout', data: { turbolinks: false } %>
          <% else %>
            <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
         <% end %>
