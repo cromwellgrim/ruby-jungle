@@ -1,2 +1,31 @@
-<h1>Admin::Sales#index</h1>
-<p>Find me in app/views/admin/sales/index.html.erb</p>
+<section class="admin-products-index">
+
+  <header class="page-header">
+    <h1><%= link_to 'Admin', '/admin' %> &raquo; All Sales</h1>
+  </header>
+
+  <div class="well">
+    <%= link_to '+ New Sale', [:new, :admin, :sale], class: 'btn btn-info' %>
+  </div>
+
+  <div class="panel panel-default products">
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Status</th>
+          <th>Percent Off</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <%= render @sales %>
+      </tbody>
+    </table>
+
+  </div>
+
+</section>
