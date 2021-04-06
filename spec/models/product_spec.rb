@@ -25,7 +25,7 @@ RSpec.describe Product, type: :model do
 
         @product.name = "tester"
         @product.validate
-        expect(@product.errors[:name]).to_not include("can't be blnak")
+        expect(@product.errors[:name]).to_not include("can't be blank")
       end
     end
 
