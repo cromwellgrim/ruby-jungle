@@ -27,11 +27,11 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-       <li class="login">
+       <li class="login" id="login-li">
          <% if current_user %>
-           Logged in as <%= current_user.name %> | <%= link_to "Logout", '/logout', data: { turbolinks: false } %>
+           Logged in as <%= current_user.name %> <%= link_to "Logout", '/logout', data: { turbolinks: false } %>
          <% else %>
-           <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
+           <%= link_to 'Login', '/login' %> <%= link_to 'Signup', '/signup' %>
         <% end %>
        </li>
        <li class="dropdown">

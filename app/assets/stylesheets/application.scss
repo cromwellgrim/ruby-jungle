@@ -11,6 +11,11 @@ body {
   padding-top: 70px;
 }
 
+#login-li {
+  display: flex;
+  flex-direction: row;
+}
+
 // Bootstrap adjustments
 form.button_to {
   display: inline;
