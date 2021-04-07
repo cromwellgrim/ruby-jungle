@@ -2,6 +2,13 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Screenshots
+![Home Page](https://github.com/cromwellgrim/ruby-jungle/blob/master/docs/jungle%20-%20home.png)
+![Product Category](https://github.com/cromwellgrim/ruby-jungle/blob/master/docs/jungle%20-%20category.png)
+![Admin Page](https://github.com/cromwellgrim/ruby-jungle/blob/master/docs/jungle%20-%20admin.png)
+![Admin Products Page](https://github.com/cromwellgrim/ruby-jungle/blob/master/docs/jungle%20-%20admin%20products.png)
+![Sold Out Badge](https://github.com/cromwellgrim/ruby-jungle/blob/master/docs/jungle%20-%20sold%20out%20badge.png)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
